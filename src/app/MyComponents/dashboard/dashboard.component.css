@@ -1,0 +1,36 @@
+#my-navbar{
+    position: sticky;
+    position: -webkit-sticky;
+    top:0;
+    z-index: 300;
+}
+
+.navbar{
+    box-shadow: 2px 0px 5px #bdbdbd;
+  }
+  
+  .navbar-nav .nav-link.active {
+    position: relative;
+  }
+  
+  .nav-item{
+    font-size: larger;
+  }
+  
+  .nav-item:hover{
+    background-color: #f2f2f2;
+  }
+  .navbar-nav .nav-link.active::after {
+    align-self: center;
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 4px;
+    border: 0px solid transparent;
+    border-radius: 10px;
+    background-color: #c77cff;
+  }
+  
+  

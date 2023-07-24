@@ -1,0 +1,39 @@
+<div id="parent-container" class="container-fluid p-0 m-0 d-flex flex-column justify-content-center">
+    <div class="row p-0 m-0 d-flex justify-content-center">
+        <div class="col-9 p-0 m-0">
+            <div id="child-container" class="container-fluid">
+                <div class="row p-0 m-0">
+                    <div class="col p-0 m-0">
+                        <form [formGroup]="registerForm" (ngSubmit)="registerUser()" id="register-form">
+                            <h3 class="fw-bold">Register</h3>
+                            <p class="gray-text">Already have an account? <a routerLink="/"
+                                    class="primary-text fw-bold">Sign In</a></p>
+                            <p class="mt-5 p-0 m-0 fw-bold">Full Name</p>
+                            <input formControlName="name" type="text" placeholder="Your Name"
+                                class="form-control my-input-field px-2 py-3" id="email" />
+                            <p class="mt-4 p-0 m-0 fw-bold">Email Address</p>
+                            <input formControlName="email" type="email" placeholder="you@example.com"
+                                class="form-control my-input-field px-2 py-3" id="email" />
+                            <p class="mt-4 p-0 m-0 fw-bold">Create Password</p>
+                            <input formControlName="password" type="password" placeholder="Enter 8 or more characters"
+                                class="form-control my-input-field px-2 py-3" id="password" />
+                            <p class="mt-4 p-0 m-0 fw-bold">Confirm Password</p>
+                            <input formControlName="confirmPassword" type="password"
+                                class="form-control my-input-field px-2 py-3" id="password" />
+                            <div class="mt-3">
+                                <input type="checkbox" id="remember-checkbox" /><span class="gray-text ms-2">I have read
+                                    and accept the <a class="primary-text" href="">terms and conditions</a>
+                                </span>
+                            </div>
+                            <input type="submit" class="btn btn-primary mt-5 w-100 py-3 primary-bg border-0 fw-bold"
+                                value="Register" />
+                        </form>
+                    </div>
+                    <div class="col-7">
+                        <img id="login-banner" src="../../../assets/login-banner.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

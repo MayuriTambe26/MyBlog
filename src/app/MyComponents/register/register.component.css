@@ -1,0 +1,64 @@
+#parent-container{
+    background: rgb(128,0,224);
+    background: linear-gradient(203deg, rgba(128,0,224,1) 18%, rgba(199,124,255,1) 100%);
+    width: 100%;
+    min-height: 100vh;
+    padding: 50px;
+    }
+    #child-container{
+        background-color:#f1f1f1;
+        min-height: fit-content;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        box-shadow: 0px 15px 20px -10px #68008a, 0px -15px 20px -10px #68008a;
+        border:0px solid white ;
+        border-radius: 3px;
+    }
+    #register-form{
+        background-color: white;
+        padding-left: 7%;
+        padding-right: 7%;
+        padding-top: 10%;
+        padding-bottom: 10%;
+        border:0px solid white ;
+        border-radius: 8px;
+        
+    }
+    input::placeholder {
+        color: #a2a2a2;
+      }
+      
+      .form-control:focus{
+        box-shadow: none;
+        border-color: #c77cff;
+      }
+    
+    .my-input-field{
+        color: #666666;
+        font-size: large;
+        width: 100%;
+        border: 2px solid #cacaca;
+        border-radius: 8px;
+    }
+    
+    .gray-text{
+        color: #a2a2a2;
+    }
+    .primary-text{
+        color: #c77cff;
+    }
+    
+    .primary-bg{
+        background-color: #c77cff;
+    }
+    #login-banner{
+        max-width: 100%;
+        min-height:100%;
+        border: 0px solid white;
+        border-radius: 8px;
+        object-fit: contain;
+    background-color: white; 
+    }
+   

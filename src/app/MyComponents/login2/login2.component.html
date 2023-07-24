@@ -1,0 +1,49 @@
+<div id="parent-container" class="container-fluid p-0 m-0 d-flex flex-column justify-content-center">
+    <div class="row p-0 m-0 d-flex justify-content-center">
+        <div class="col-9 p-0 m-0">
+<div id="child-container" class="container-fluid">
+    <div class="row p-0 m-0">
+        <div class="col p-0 m-0">
+<form [formGroup]="loginForm" (ngSubmit)="loginUser()" id="login-form">
+    <h3 class="fw-bold">Login</h3>
+    <p class="gray-text">Don't have an account yet? <a routerLink="/register" class="primary-text fw-bold">Sign Up</a></p>
+    <p class="mt-5 p-0 m-0 fw-bold">Email Address</p>
+    <input type="email" formControlName="email" placeholder="you@example.com" class="form-control my-input-field px-2 py-3" id="email"/>
+    <p class="mt-4 p-0 m-0 fw-bold">Password</p>
+    <input type="password" formControlName="password" placeholder="Enter 8 or more characters" class="form-control my-input-field px-2 py-3" id="password"/>
+    <div class="mt-3">
+    <input type="checkbox" id="remember-checkbox"/><span class="gray-text ms-2">Remember me
+    </span> 
+    </div>
+    <input type="submit" class="btn btn-primary mt-4 w-100 py-3 primary-bg border-0 fw-bold" value="Login"/>
+    <div class="container-fluid w-100 p-0 m-0 mt-5">
+<div class="row">
+<div class="col-4">
+<hr>
+</div>
+<div class="col-4">
+<p id="footer-form-title" class="w-100 text-center gray-text">or login with</p>
+</div>
+<div class="col-4">
+<hr>
+</div>
+</div>
+<div class="row mt-3">
+    <div class="col">
+        <button class="btn btn-outline-danger fw-bold w-100"><img style="height: 30px;"class="me-3" src="../../../assets/google-logo1.png">Google</button>
+    </div>
+    <div class="col">
+        <button class="btn btn-outline-primary fw-bold w-100"><img style="height: 30px;"class="me-3" src="../../../assets/logo-Meta1.png">facebook</button>
+    </div>
+</div>
+    </div>
+</form>
+        </div>
+        <div class="col-7">
+        <img id="login-banner" src="../../../assets/login-banner.png">
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</div>

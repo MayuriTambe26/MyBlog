@@ -1,0 +1,23 @@
+<div class="container-fluid p-0">
+    <div class="row">
+        <div class="col">
+        <img id="card-thumbnail" src="{{post?.imageAddress}}">
+        </div>   
+    </div>
+    <div class="row mt-3">
+        <div class="col-auto">
+        <p class="timestamp-text">{{post?.date}}</p>
+        </div>
+        <div class="col-auto">
+            <p class="timestamp-text">|</p>
+        </div>
+        <div class="col-auto">
+            <p class="timestamp-text">{{post?.duration}}</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <p id="title">{{post?.title}}</p>
+        </div>
+    </div>
+</div>

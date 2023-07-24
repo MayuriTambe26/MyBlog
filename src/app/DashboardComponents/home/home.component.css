@@ -1,0 +1,16 @@
+.primary-text{
+    color: #c77cff;
+}
+
+#left-section{
+    position: fixed;
+    position: -webkit-sticky;
+    top: 10%;
+    border-right: 1px solid #e8e8e8e8;
+}
+.primary-bg{
+    background-color: #c77cff;
+}
+.container-fluid{
+    overflow:hidden;
+}
